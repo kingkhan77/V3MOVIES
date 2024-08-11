@@ -30,7 +30,7 @@ export default {
   >
     <router-link to="/">
       <h1 class="text-white font-semibold text-4xl font-[Roboto]" @click="this.search=''">
-        <span class="text-[#42B883] ">VUE3</span>MOVIES
+        <span class="text-[#42B883] ">V3</span>MOVIES
       </h1>
     </router-link>
     <form @submit.prevent="searchMovies">
