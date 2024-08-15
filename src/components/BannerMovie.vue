@@ -7,12 +7,10 @@ export default {
       loading: true
     }
   },
+
   //life cycle hooks need to be defined outside
   async beforeMount() {
     await this.getMovies()
-    // if (this.movies.length > 0) {
-    //   this.bannerMovie = this.movies[this.getRandomInt(0, this.movies.length)]
-    // }
   },
 
   methods: {
